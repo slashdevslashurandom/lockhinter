@@ -2,6 +2,11 @@
 name = "lockhinter"
 version = "0.1.0"
 edition = "2024"
+license = "MIT or Apache-2.0"
+description = "A standalone utility for setting LockedHint on X11/Wayland sessions"
+readme = "README.md"
+repository = "https://github.com/slashdevslashurandom/lockhinter"
+keywords = ["linux", "wayland", "logind", "systemd"]
 
 [dependencies]
 getopts = "0.2.24"
