@@ -51,13 +51,13 @@ another locker utility (such as `swaylock`), in which case it will keep the
 running the locker should be specified immediately, or after the `--` separator.
 
 ```
-$ lockhinter -- swaylock -f -c 3d3846
+$ lockhinter -- swaylock -c 3d3846
 ```
 
 or
 
 ```
-$ lockhinter swaylock -f -c 3d3846
+$ lockhinter swaylock -c 3d3846
 ```
 
 By default, if the `LockedHint` property is already set on a session,
@@ -65,7 +65,7 @@ By default, if the `LockedHint` property is already set on a session,
 overridden with the `-f` or `--force`` parameter:
 
 ```
-$ lockhinter -f -- swaylock -f -c 3d3846
+$ lockhinter -f -- swaylock -c 3d3846
 ```
 
 That way, the program will start the locker again and clear the `LockedHint`
